@@ -25,3 +25,7 @@ function ImportJSONAdvanced(url, fetchOptions, query, parseOptions, includeFunc,
       }
   
   var jsondata = UrlFetchApp.fetch(url, AccessOptions);
+
+where you will embed YOUR API key in where this bogus one is now stored (in the template the key is coded as "xxx"). The template is here:
+
+https://docs.google.com/spreadsheets/d/1iW_uVFXteit5wspyTKuYFITppFpBzlpLdApq4McqSrI/edit?usp=sharing
