@@ -29,3 +29,5 @@ function ImportJSONAdvanced(url, fetchOptions, query, parseOptions, includeFunc,
 where you will embed YOUR API key in where this bogus one is now stored (in the template the key is coded as "xxx"). The template is here:
 
 https://docs.google.com/spreadsheets/d/1iW_uVFXteit5wspyTKuYFITppFpBzlpLdApq4McqSrI/edit?usp=sharing
+
+In the template I have a few queries already established; you'll see them as "#ERROR!" until you address the API Key issue above. Once you have, and when you load the sheet, it will pull all your organizations, opportunities, projects and tasks down into your sheet. Pretty cool, huh? More importantly, it will pull all of the important key values, which is the magic that we'll use to update fields elsewhere within Insightly.
